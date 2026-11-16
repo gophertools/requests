@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 )
 
 func ExampleToBufioReader() {

@@ -18,12 +18,13 @@ type Deserializer = func(data []byte, v any) error
 var (
 	// JSONV1Serializer is [jsonv1.Marshal].
 	JSONV1Serializer Serializer = jsonv1.Marshal
-	// JSONSerializer is used by [BodyJSON] and [Builder.BodyJSON].
+	// JSONSerializer is used by [Builder.BodyJSON].
 	JSONSerializer Serializer = func(v any) ([]byte, error) {
 		return jsonv2.Marshal(v)
 	}
-	// JSONDeserializer is used by [ToJSON] and [Builder.ToJSON].
-	// The default deserializer may be changed in a future version of requests.
+	// JSONV1Deserializer is [jsonv1.Unmarshal].
+	JSONV1Deserializer Deserializer = jsonv1.Unmarshal
+	// JSONDeserializer is used by [Builder.ToJSON].
 	JSONDeserializer Deserializer = func(data []byte, v any) error {
 		return jsonv2.Unmarshal(data, v)
 	}

@@ -3,7 +3,7 @@ package requests_test
 import (
 	"net/http"
 
-	"github.com/gophertools/requests/reqtest"
+	"github.com/gophertools/requests/v2/reqtest"
 )
 
 func init() {

@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"slices"
 
-	"github.com/gophertools/requests/internal/minitrue"
+	"github.com/gophertools/requests/v2/internal/minitrue"
 )
 
 // nopCloser is like io.NopCloser(),

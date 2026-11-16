@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophertools/requests"
-	"github.com/gophertools/requests/internal/be"
+	"github.com/gophertools/requests/v2"
+	"github.com/gophertools/requests/v2/internal/be"
 )
 
 func TestUserAgentTransport(t *testing.T) {

@@ -3,7 +3,7 @@ package requests
 import (
 	"testing"
 
-	"github.com/gophertools/requests/internal/be"
+	"github.com/gophertools/requests/v2/internal/be"
 )
 
 // PathCases is exported to share tests with requests_test

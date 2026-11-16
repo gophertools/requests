@@ -9,7 +9,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 )
 
 // ReplayJSON returns a [requests.Transport]

@@ -5,7 +5,7 @@ import (
 	"bufio"
 	"io"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 	"golang.org/x/net/html"
 )
 

@@ -3,7 +3,7 @@ package reqtest
 import (
 	"net/http/httptest"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 )
 
 // Server takes an httptest.Server and returns a requests.Config

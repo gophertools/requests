@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 )
 
 // ReplayString returns an http.RoundTripper that always responds with a

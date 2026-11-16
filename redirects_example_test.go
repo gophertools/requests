@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 )
 
 func ExampleCheckRedirectPolicy() {

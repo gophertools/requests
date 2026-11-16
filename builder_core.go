@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"slices"
 
-	"github.com/gophertools/requests/internal/minitrue"
+	"github.com/gophertools/requests/v2/internal/minitrue"
 )
 
 // Builder is a convenient way to build, send, and handle HTTP requests.

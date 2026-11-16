@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 )
 
 func ExampleNewCookieJar() {

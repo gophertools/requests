@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophertools/requests/internal/be"
+	"github.com/gophertools/requests/v2/internal/be"
 )
 
 type testingTB struct {

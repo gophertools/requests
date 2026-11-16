@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gophertools/requests"
+	"github.com/gophertools/requests/v2"
 )
 
 func ExampleHasStatusErr() {

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/gophertools/requests"
-	"github.com/gophertools/requests/reqhtml"
-	"github.com/gophertools/requests/reqtest"
+	"github.com/gophertools/requests/v2"
+	"github.com/gophertools/requests/v2/reqhtml"
+	"github.com/gophertools/requests/v2/reqtest"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 )

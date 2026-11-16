@@ -1,7 +1,7 @@
 package be_test
 
 import (
-	"github.com/gophertools/requests/internal/be"
+	"github.com/gophertools/requests/v2/internal/be"
 )
 
 func ExampleDeepEqual() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophertools/requests/internal/be"
+	"github.com/gophertools/requests/v2/internal/be"
 )
 
 type mockDebug struct {

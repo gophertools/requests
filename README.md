@@ -239,7 +239,7 @@ assert(s1 == s2) // true
 
 ## FAQs
 
-[See wiki](https://github.com/earthboundkid/requests/wiki) for more details.
+[See wiki](https://github.com/gophertools/requests/wiki) for more details.
 
 ### Why not just use the standard library HTTP client?
 
@@ -309,4 +309,4 @@ To disable all response validation, run `builder.AddValidator(nil)`.
 
 ## Contributing
 
-Please [create a discussion](https://github.com/earthboundkid/requests/discussions) before submitting a pull request for a new feature.
+Please [create a discussion](https://github.com/gophertools/requests/discussions) before submitting a pull request for a new feature.

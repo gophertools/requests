@@ -17,6 +17,6 @@ jobs:
         run: go mod tidy -diff
       - name: Test
         run: go test -race -v -coverprofile=profile.cov ./...
-      - uses: shogo82148/actions-goveralls@v1
+      - uses: coverallsapp/github-action@v2
         with:
-          path-to-profile: profile.cov
+          file: profile.cov

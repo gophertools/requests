@@ -24,8 +24,11 @@ func ExampleValidatorHandler() {
 		AddValidator(
 			requests.ValidatorHandler(
 				requests.DefaultValidator,
-				requests.ToString(&errBody),
-			)).
+				requests.ToDeserializer(func(data []byte, v any) error {
+					errBody = string(data)
+					return nil
+				}, nil)),
+		).
 		Fetch(context.Background())
 	switch {
 	case errors.Is(err, requests.ErrInvalidHandled):

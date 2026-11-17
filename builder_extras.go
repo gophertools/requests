@@ -194,7 +194,7 @@ func (rb *Builder) ToJSON(v any) *Builder {
 
 // ToString sets the Builder to write the response body to the provided string pointer.
 func (rb *Builder) ToString(sp *string) *Builder {
-	return rb.Handle(ToString(sp))
+	return rb.Handle(toString(sp))
 }
 
 // ToWriter sets the Builder to copy the response body into w.

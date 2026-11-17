@@ -49,8 +49,8 @@ func toJSON(v any) ResponseHandler {
 	return ToDeserializer(JSONDeserializer, v)
 }
 
-// ToString writes the response body to the provided string pointer.
-func ToString(sp *string) ResponseHandler {
+// toString writes the response body to the provided string pointer.
+func toString(sp *string) ResponseHandler {
 	return func(res *http.Response) error {
 		var buf strings.Builder
 		_, err := io.Copy(&buf, res.Body)
